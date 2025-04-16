@@ -1,0 +1,8 @@
+{
+  "name": "clicker",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb"
+  }
+}
