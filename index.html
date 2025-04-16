@@ -33,7 +33,7 @@
     <button onclick="sendClick()">Click Me</button>
     <script>
         const countDisplay = document.getElementById('count');
-        const socket = new WebSocket('ws://147.185.221.27:41436');
+        const socket = new WebSocket('wss://147.185.221.27:41436');
         socket.addEventListener('open', () => {
             socket.send('load');
         });
